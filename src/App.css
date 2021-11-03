@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+html {
+  --color-dark-purple: #453a64;
+  --color-focus-purple: #543a9c;
+  --color-medium-dark-purple: #6446b8;
+  --color-light-purple: #f9f8fc;
+  --color-white: #ffffff;
+  --color-light-gray: #f9f8fc;
+  --color-dark-gray: #e4e1ec;
+  --color-focus-gray: #c9c4d9;
+  --padding-sm: 0.5rem;
+  --padding-md: 0.75rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+caption {
+  text-align: left;
+  padding: var(--padding-md) var(--padding-md);
+  border: 1px solid var(--color-dark-purple);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.75rem;
+  color: var(--color-dark-purple);
+  background-color: var(--color-light-purple);
+  border: 1px solid var(--color-dark-purple);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+thead {
+  text-align: left;
+  background-color: var(--color-dark-purple);
+  color: var(--color-white);
 }
 
-.App-link {
-  color: #61dafb;
+td, th {
+  padding: var(--padding-sm) var(--padding-md);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td {
+  border: 1px solid var(--color-dark-gray);
+}
+
+.hidden {
+  display: none;
 }
