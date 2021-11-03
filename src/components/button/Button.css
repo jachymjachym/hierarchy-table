@@ -1,28 +1,28 @@
 .button {
-	appearance: none;
-	border: none;
-	cursor: pointer;
-	transition: all 0.1s ease-out;
-	padding: var(--padding-sm) var(--padding-md);
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+  padding: var(--padding-sm) var(--padding-md);
 }
-  
+
 .primary {
-	color: var(--color-white);
-	background-color: var(--color-medium-dark-purple);
+  color: var(--color-white);
+  background-color: var(--color-medium-dark-purple);
 }
-  
+
 .secondary {
-	background-color: var(--color-light-gray);
-	border: 1px solid var(--color-dark-gray);
-	color: var(--color-dark-purple);
+  background-color: var(--color-light-gray);
+  border: 1px solid var(--color-dark-gray);
+  color: var(--color-dark-purple);
 }
 
 .primary:hover,
 .primary:focus {
-	background-color: var(--color-focus-purple);
+  background-color: var(--color-focus-purple);
 }
 
 .secondary:hover,
 .secondary:focus {
-	border-color: var(--color-focus-gray);
+  border-color: var(--color-focus-gray);
 }

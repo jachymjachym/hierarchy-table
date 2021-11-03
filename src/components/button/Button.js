@@ -2,13 +2,13 @@ import PropTypes from 'prop-types';
 import './Button.css';
 
 function Button(props) {
-	return (
-		<button
-			className={`button ${props.variant}`} onClick={props.onClick}
-			aria-label={props['aria-label']}>
-			{ props.children }
-		</button>
-	);
+  return (
+    <button
+      className={`button ${props.variant}`} onClick={props.onClick}
+      aria-label={props['aria-label']}>
+      { props.children }
+    </button>
+  );
 }
 
 export default Button;

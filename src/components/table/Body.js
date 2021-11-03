@@ -1,9 +1,9 @@
 function TableBody(props) {
-    return (
-			<tbody>
-				{ props.children }
-			</tbody>
-    );
-  }
-  
-  export default TableBody;
+  return (
+    <tbody>
+      { props.children }
+    </tbody>
+  );
+}
+
+export default TableBody;
