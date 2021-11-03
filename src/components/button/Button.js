@@ -14,11 +14,11 @@ function Button(props) {
 export default Button;
 
 Button.defaultProps = {
-	variant: 'primary',
+  variant: 'primary',
 };
 
 Button.propTypes = {
-	variant: PropTypes.oneOf(['primary', 'secondary']),
-	onClick: PropTypes.func.isRequired,
-	'aria-label': PropTypes.string,
+  variant: PropTypes.oneOf(['primary', 'secondary']),
+  onClick: PropTypes.func.isRequired,
+  'aria-label': PropTypes.string,
 };
