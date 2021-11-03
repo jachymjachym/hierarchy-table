@@ -1,8 +1,8 @@
 # Ataccama Hierarchy Table
 
-So this is my solution of the HierarchyTable task. Please note that I was trying to take the easiest way and make it ASAP, so there is a lot to improve. 
+So this is my solution of the HierarchyTable task. Deployed on https://hierarchy-table.surge.sh/
 
-Here are some things, which could possibly improve development, architecture and performace (in case of larger scaled app):
+Things, which could possibly improve development, architecture and performace (in case of larger scaled app):
 
 ### Typescript
 
